@@ -58,8 +58,13 @@ body{
 .visit,.learn,.involved{
     display:inline-block;
     padding: 1%;
-    margin: 2% 6%;
     border-radius: 8px;
+}
+nav {
+    border: 2px dotted blue;
+    display: inline-block;
+    width: 100%;
+    padding:1%
 }
 .visit{
     background-color:#FF764E;
@@ -96,13 +101,11 @@ a{
     width: 20%;
     margin:2% 5%;
 }
-
 .top-section-right{
     display: inline-block;
     border: 1px solid black;
    text-align: center;
 }
-
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 2rem;
@@ -110,10 +113,9 @@ h1{
 .section1{
     background-color:#DDB9A3;
 }
-
 .section2,.section3{
     margin: 0 auto;
-    width: 275px;
+    width: 25%;
     text-align:center;
     padding: 2% 0%;
 }
@@ -122,7 +124,6 @@ h1{
     width: 30%;
     margin: 0 auto;
 }
-
 .caricon{
     height: 30%;
     width: 30%;
