@@ -46,13 +46,85 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+/*HERE IS WHERE MY CODE STARTS*/
+
 body{
     font-family: 'Roboto Mono', monospace; 
+    font-size: 12px;
 }
-h1{
-    font-family: 'Chelsea Market', cursive;
+.visit,.learn,.involved{
+    display:inline-block;
+    padding: 1%;
+    margin: 2% 6%;
+    border-radius: 8px;
 }
-
+.visit{
+    background-color:#FF764E;
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+}
+.learn{
+    background-color:#5ED3EB;
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+}
+.involved{
+    background-color:#FFCD69;
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+}
 img{
     width:50px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+.top-section {
+    display:inline-block;
+    width: 100%;
+    border: 1px solid red;
+}
+.circle-img{
+    border-radius: 50%;
+    width: 20%;
+    margin:2% 5%;
+}
+
+.top-section-right{
+    display: inline-block;
+    border: 1px solid black;
+   text-align: center;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
+.section1{
+    background-color:#DDB9A3;
+}
+
+.section2,.section3{
+    margin: 0 auto;
+    width: 275px;
+    text-align:center;
+    padding: 2% 0%;
+}
+.fireicon{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.caricon{
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
 }
