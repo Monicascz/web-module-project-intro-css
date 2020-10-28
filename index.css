@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+    font-family: 'Roboto Mono', monospace; 
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+
+img{
+    width:50px;
+}
