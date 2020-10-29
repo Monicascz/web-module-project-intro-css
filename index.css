@@ -55,38 +55,31 @@ body{
     font-family: 'Roboto Mono', monospace; 
     font-size: 12px;
 }
+nav{
+    width: 100%;
+    padding: 2% 0%;
+}
+
 .visit,.learn,.involved{
     display:inline-block;
     padding: 1%;
     border-radius: 8px;
-}
-nav {
-    border: 2px dotted blue;
-    display: inline-block;
-    width: 100%;
-    padding:1%
+    font-size:.9rem;
+    text-transform: capitalize;
+    width: 100px;
+    text-align:center;
+    margin: 0 12% 0 12%;
 }
 .visit{
     background-color:#FF764E;
-    display:inline-block;
-    width: 100px;
-    text-align: center;
 }
 .learn{
     background-color:#5ED3EB;
-    display:inline-block;
-    width: 100px;
-    text-align: center;
 }
 .involved{
     background-color:#FFCD69;
-    display:inline-block;
-    width: 100px;
-    text-align: center;
 }
-img{
-    width:50px;
-}
+
 a{
     color: white;
     text-decoration:none;
@@ -94,30 +87,52 @@ a{
 .top-section {
     display:inline-block;
     width: 100%;
-    border: 1px solid red;
 }
 .circle-img{
+    display:inline-block;
     border-radius: 50%;
-    width: 20%;
-    margin:2% 5%;
+    width: 16%;
+    margin:0 2% 0 12%;
 }
 .top-section-right{
     display: inline-block;
-    border: 1px solid black;
+    width:65%;
    text-align: center;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    margin: 0 0 3% 0;
+    padding:1% 0;   
+}
+
+.paragraph2{
+    display: inline-block;
+    width:40%;
+    font-size: 1.4rem;
+    padding: 2%;
+}
+.paragraph1{
+    font-size: 1.4rem;
 }
 .section1{
     background-color:#DDB9A3;
+    width: 80%;
+    text-align:center;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: white;
+    padding: 1% 0;
+}
+.section1 p {
+    padding: 0 0 1% 0;
 }
 .section2,.section3{
     margin: 0 auto;
     width: 25%;
     text-align:center;
     padding: 2% 0%;
+    font-size: 1.2rem;
 }
 .fireicon{
     height: 30%;
@@ -128,4 +143,11 @@ h1{
     height: 30%;
     width: 30%;
     margin: 0 auto;
+}
+.bottomimg{
+    display: inline-block;
+}
+footer{
+    background-color:peachpuff;
+    height: 40vh;
 }
